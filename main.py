@@ -1,3 +1,3 @@
-a = int(input("А = "))
-b = int(input("B = "))
-print(f"Максимум = {max(a, b)}")
+a = int(input("Введите A = "))
+b = int(input("Введит B = "))
+print(f"Максимум из A и B = {max(a, b)}")
