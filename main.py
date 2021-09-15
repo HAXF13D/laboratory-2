@@ -1,3 +1,5 @@
-a = int(input("Введите A = "))
-b = int(input("Введит B = "))
-print(f"Максимум из A и B = {max(a, b)}")
+import math
+h = int(input())
+a = int(input())
+b = int(input())
+print(math.ceil((h-a)/(a-b) + 1))
