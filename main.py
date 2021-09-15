@@ -1,5 +1,9 @@
-import math
-h = int(input())
-a = int(input())
-b = int(input())
-print(math.ceil((h-a)/(a-b) + 1))
+def fact(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fact(n - 1)
+
+
+num = int(input("Введите число: "))
+print(f"{num}! = {fact(num)}")
